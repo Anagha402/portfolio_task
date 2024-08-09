@@ -60,6 +60,10 @@ header{
         
 
 }
+
+.navg h1:hover{
+    scale: 1.07;
+}
     /* section */
     /* home */
     #home{
