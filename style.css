@@ -1,0 +1,408 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif", serif;
+
+}
+/* header */
+header{
+    background-color: black;
+    color: rgb(9, 226, 234);
+    padding: 10px;
+    border-bottom: 3px solid rgb(9, 226, 234);
+    filter: drop-shadow(2px 2px 2px rgb(21, 179, 188));
+    
+}
+.navg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* to commomnly flex 3 main contents */
+
+}
+.navg ul {
+    display: flex;
+    /* to flex list elements */
+    
+}
+.navg ul li{
+    margin: 10px;
+    /* to give space between list items */
+}
+.cv1{background-color: transparent;
+      color:rgb(9, 226, 234);
+      cursor: pointer;
+      border: 3px solid rgb(9, 226, 234);
+      text-decoration: none;
+      height: 40px;
+      width: 90px;
+      padding: 7px;
+      padding-left: 15px;
+      border-radius: 5%;
+      
+    }
+    .cv1:hover{
+        background-color: rgb(9, 226, 234);
+        color: azure;
+        scale: 1.1;
+    }
+.fa-solid {
+    color: azure;
+}
+.navg li a{
+    color: rgb(9, 226, 234);
+    text-decoration: none;
+}
+.navg li a:hover{
+    text-decoration: underline;
+    
+    text-shadow:3px 3px 3px rgb(9, 226, 234);
+        
+
+}
+    /* section */
+    /* home */
+    #home{
+        background-color: black;
+        color: rgb(9, 226, 234);
+        padding: 15px;
+        display: flex;
+        height: 700px;
+    }
+    .intro{
+        margin-top: 130px;
+        margin-left: 50px;
+    }
+    .intro h2{
+        font-size: 50px;
+    }
+    .intro h1{
+        font-size: 70px;
+        filter: drop-shadow(2px 2px 2px aqua);
+    }
+    .intro h1:hover{
+        scale: 1.05;
+    }
+    .intro h3{
+        font-size: 30px;
+    }
+    .intro p{
+        text-align: justify;
+        margin-right: 300px;
+    }
+    .pic img{height: 500px;
+        border-radius: 40%;
+        margin-top: 50px;
+        margin-right: 70px;
+        filter: drop-shadow(6px 6px 6px rgb(43, 220, 226));
+        
+    }
+    .pic img:hover{
+        scale: 1.05;
+        box-shadow: 9px 9px rgb(9, 226, 234);
+    }
+    .cv2{background-color: transparent;
+        color:rgb(9, 226, 234);
+        border: 2px solid rgb(9, 226, 234);
+        cursor: pointer;
+        text-decoration: none;
+        height: 30px;
+        width: 90px;
+        padding: 14px 34px;
+        border-radius: 5%;
+        
+        
+      }
+      .cv2:hover{
+          background-color: rgb(9, 226, 234);
+          
+          color: azure;
+          
+          
+      }
+
+      .cv3{background-color: rgb(9, 226, 234);
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        height: 30px;
+        width: 90px;
+        padding: 14px 34px;
+        border-radius: 5%;
+        color: black;
+        margin-left: 15px;
+        
+      }
+      .cv3:hover{
+          background-color: azure;
+          color: rgb(9, 226, 234);
+          
+      }
+      /* about */
+      #about{
+        height: 400px;
+        background-color: black;
+        color: rgb(9, 226, 234);
+        
+      }
+      .main{
+        display: flex;
+      }
+      .main img{
+        height: 350px;
+        padding: 20px;
+        border-radius: 20%;
+        filter: drop-shadow(4px 4px 4px rgb(4, 213, 245))
+        
+      }
+      .main img:hover{
+        scale: 1.09;
+        box-shadow: 3px 3px rgb(9, 226, 234);
+      }
+      .hh1{
+        font-size: 55px;
+        filter: drop-shadow(2px 2px 2px aqua);
+        margin-left: 45px;
+      }
+      .hh1:hover{
+           text-decoration: underline;
+           scale: 1.05;
+      }
+      .main p{
+        text-align: justify;
+        padding: 30px;
+        margin-left: 10px;
+      }
+
+
+
+      /* skills */
+       #skills{
+        height: 230px;
+        background-color: black;
+        color: rgb(9, 226, 234);
+      }
+     
+    .btn{
+        display: flex;
+        background-color: black;
+        height: 100px;
+        
+        margin-top: 50px;
+        
+        justify-content: space-evenly;
+        
+        
+    }
+     .sub{
+        height: 50px;
+        width: 150px;
+        margin-left: 7px;
+        margin-right: 10px;
+        color: black;
+        text-shadow: 3px 3px 3px gray;
+        background-color: rgb(9, 226, 234);
+        border: 3px groove azure;
+        filter: drop-shadow(2px 2px 2px azure);
+        border-radius: 5%;
+        font-size: 20px;
+     }
+     .sub:hover{
+        scale: 1.09;
+        box-shadow: 3px 3px azure;
+     }
+     
+
+
+
+     .butn{
+        display: flex;
+        background-color: black;
+        height: 100px;
+        
+        
+        
+        justify-content: space-evenly;
+        
+        
+    }
+     .sub2{
+        height: 50px;
+        width: 150px;
+        margin-left: 7px;
+        margin-right: 10px;
+        color: black;
+        text-shadow: 3px 3px 3px gray;
+        background-color: rgb(9, 226, 234);
+        border: 3px groove azure;
+        filter: drop-shadow(2px 2px 2px azure);
+        border-radius: 5%;
+        font-size: 20px;
+     }
+     .sub2:hover{
+        scale: 1.09;
+        box-shadow: 3px 3px azure;
+     } 
+
+     /* projects */
+     #project{
+        background-color: black;
+        color: rgb(9, 226, 234);
+        
+        margin-top: 90px;
+        height: 850px;
+     }
+    
+
+.row{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+
+}
+.col{
+    background-color: rgb(9, 226, 234);
+    height: 300px;
+    width: 300px;
+    color: black;
+    filter: drop-shadow(2px 2px 2px aqua);
+}
+
+.col img{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    
+}
+.col:hover{
+    filter: drop-shadow(3px 3px 3px aqua);
+    
+    scale: 1.09;
+}
+.first{
+    text-align: center;
+    text-shadow: 2px 2px 2px gray;
+    margin-top: 20px;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
+.col2{
+    background-color: transparent;
+    border: 3px solid rgb(9, 226, 234);
+    height: 300px;
+    width: 300px;
+    
+
+}
+
+.col2:hover{
+    filter: drop-shadow(3px 3px 3px aqua);
+    
+    scale: 1.09;
+}
+.col2 img{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    
+}
+.second{
+    text-align: center;
+    
+    margin-top: 20px;
+}
+
+
+
+/* contact */
+#contact{
+    background-color: black;
+    color: rgb(9, 226, 234);
+    height: 700px;
+}
+form{
+    text-align: center;
+}
+input{
+    width: 30%;
+    height: 30px;
+    background-color: black;
+    border: 2px solid rgb(9, 226, 234);
+    
+    margin-left: 10px;
+}
+input:hover{
+    filter: drop-shadow(2px 2px 2px rgb(9, 226, 234) );
+}
+
+textarea{
+    background-color: black;
+    border: 2px solid rgb(9, 226, 234);
+    
+    margin-left: 10px;
+}
+textarea:hover{
+    filter: drop-shadow(2px 2px 2px rgb(9, 226, 234) );
+
+}
+.submit{
+    background-color: rgb(9, 226, 234);
+    border: 3px solid azure;
+    width: 40%;
+    height: 40px;
+    padding: 5px;
+    font-size: 20px;
+    text-shadow: 2px 2px azure;
+    filter: drop-shadow(2px 2px 2px azure);
+}
+.submit:hover{
+    background-color: transparent;
+    color: rgb(9, 226, 234);
+    border: 3px solid rgb(9, 226, 234);
+    scale: 1.07;
+    text-shadow: none
+}
+
+/* footer */
+footer{
+    background-color: gray;
+    height: 300px;
+    
+}
+.get{
+    text-align: center;
+    filter: drop-shadow(2px 2px 2px aqua);
+    color:  rgb(31, 31, 116);
+    font-size: 30px;
+    padding-top: 50px;
+    
+    
+}
+.get:hover{
+    scale: 1.05;
+    text-decoration: underline;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}    
+
+.fa-brands{
+    font-size: 50px;
+    margin-left: 20px;
+    color: rgb(31, 31, 116); 
+}
+   
+.fa-brands:hover{
+    scale: 1.3;
+    color: rgb(9, 226, 234);
+}
